@@ -1,36 +1,36 @@
-📝 Sentiment Analysis Engine for Financial News & Stocks
- General Idea of the Project
+# AI-Driven Stock Sentiment Engine
 
-Implements a sentiment analysis engine to classify text as positive or negative.
+This project implements an **AI-powered sentiment analysis engine** for financial markets.  
+It processes financial news and stock-related text data to classify sentiment (positive/negative) and can be used for **quantitative trading signals** or **market risk analysis**.
 
-Focuses on financial news and stock-related text to help understand market sentiment.
+---
 
-Uses Natural Language Processing (NLP) techniques to preprocess text:
-Removing punctuation
-Removing stopwords
-Tokenization (splitting text into words)
-Builds a deep learning model with:
-Embedding layer for word vector representation
-Long Short-Term Memory (LSTM) network for sequence learning
-Dense layers for classification
-Outputs predictions that can be used in trading strategies or market research.
+## 📌 Project Overview
+- Collects and preprocesses stock-related text (news, social media, transcripts).  
+- Uses **Natural Language Processing (NLP)** for text cleaning, tokenization, and stopword removal.  
+- Trains a **deep learning model (LSTM)** for sentiment classification.  
+- Evaluates predictions using accuracy and loss metrics.  
+- Designed to integrate into **quant trading pipelines** as a sentiment-driven signal generator.  
 
-⚙️ Requirements
+---
 
-Programming Language: Python 3.8 or higher
+## 📊 AI & Statistical Concepts Used
+- **Natural Language Processing (NLP)** – tokenization, stopword removal, text vectorization.  
+- **Word Embeddings** – numerical representation of words for deep learning.  
+- **Recurrent Neural Networks (LSTM)** – model sequential dependencies in financial text.  
+- **Sentiment Classification** – binary classification (positive vs negative).  
+- **Model Evaluation** – accuracy, loss, confusion matrix, validation performance.  
 
-Software: Jupyter Notebook
+---
 
-Python Libraries:
+## 🛠️ Requirements
+This project is written in **Python 3** and uses the following libraries:
 
-pandas (data analysis)
+- **NumPy** – Numerical computations  
+- **Pandas** – Data handling  
+- **NLTK** – Natural Language Toolkit (text preprocessing)  
+- **TensorFlow / Keras** – Deep learning (LSTM model)  
+- **Scikit-learn** – Model evaluation & preprocessing  
+- **Matplotlib** – Plotting and visualization  
 
-numpy (numerical computing)
-
-matplotlib (visualization)
-
-scikit-learn (machine learning utilities)
-
-nltk (Natural Language Toolkit for text preprocessing)
-
-tensorflow / keras (deep learning framework for LSTM model)
+---
